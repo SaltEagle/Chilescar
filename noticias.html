@@ -10,7 +10,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> <!-- link de bootstrap para utilizar sus herramientas -->
 </head>
 
-<header class="centro">
+<header class="logo">
   <img src="assets/images/chilescarlogoblanco.png" alt="logo" width="400" style="height: 15vh; object-fit: cover">
 </header>
 
@@ -23,7 +23,7 @@
       <div class="navbar-nav">
         <a class="nav-link text-light" aria-current="page" href="index.html">Inicio</a>
         <a class="nav-link text-light" href="noticias.html">Noticias</a>
-        <a class="nav-link text-light" href="#">Informacion</a>
+        <a class="nav-link text-light" href="informacion.html">Informacion</a>
         <a class="nav-link text-light" aria-disabled="true">Contacto</a>
       </div>
     </div>
@@ -32,10 +32,20 @@
 
 
 
-<main class="container my-5"> <!-- Main donde estaran ubicadas las noticias. -->
+<main class="container my-3"> <!-- Main donde estaran ubicadas las noticias. -->
+
+  <section class="py-1 text-center container fuente mb-2 "> 
+        <div class="row py-lg-5"> 
+          <div class="col-lg-6 col-md-8 mx-auto">
+             <h1 class="fw-light ">Noticias de NASCAR</h1> 
+             <p class="lead text-body-secondary mb-1">Informate de las ultimas noticias de la categoria</p> 
+            </div> 
+        </div>
+  </section> 
 
   <!-- Noticia 1 -->
-  <article class="row g-0 overflow-hidden flex-md-row h-md-250 border border-light-subtle border border-3 position-relative mb-3 fuente">
+  <article class="row g-0 overflow-hidden flex-md-row h-md-250 position-relative mb-3 fuente linea">
+    
     <div class="col-auto d-none d-lg-block">
       <img src="Noticias/Miniaturas_Noticias/1.jpg" alt="Imagen noticia 1" width="370" height="250"> <!-- Miniatura de la noticia -->
     </div>
@@ -50,7 +60,7 @@
   </article>
 
   <!-- Noticia 2 -->
-  <article class="row g-0 overflow-hidden flex-md-row h-md-250 border border-light-subtle border border-3 position-relative mb-3 fuente">
+  <article class="row g-0 overflow-hidden flex-md-row h-md-250 position-relative mb-3 fuente linea">
     <div class="col-auto d-none d-lg-block">
       <img src="Noticias/Miniaturas_Noticias/2.webp" alt="Imagen noticia 2" width="370" height="250">
     </div>
@@ -65,7 +75,7 @@
   </article>
 
   <!-- Noticia 2 -->
-  <article class="row g-0 overflow-hidden flex-md-row h-md-250 border border-light-subtle border border-3 position-relative mb-3 fuente">
+  <article class="row g-0 overflow-hidden flex-md-row h-md-250 position-relative mb-3 fuente linea">
     <div class="col-auto d-none d-lg-block">
       <img src="Noticias/Miniaturas_Noticias/3.jpg" alt="Imagen noticia 2" width="370" height="250">
     </div>
