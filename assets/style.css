@@ -1,16 +1,32 @@
 
-.fuente{
-  font-family: 'Hauser', sans-serif;
-  src: url('assets/Hauser.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+
+@font-face {
+  font-family: 'Hauser';
+  src: url('./Hauser.ttf') format('truetype'); /* NO poner 'assets/' aquí */
 }
 
+.fuente {
+  font-family: 'Hauser', sans-serif;
+}
 
 .linea {
-    border-bottom: 3px solid #ff0720; 
+    border-bottom: 3px solid #ff4659; 
     width: 100%;
     padding-bottom: 20px;           
+    display: inline-block;             
+}
+
+.imagen {
+  width: 150px;       /* Ajusta según tu imagen */
+  height: auto;
+  margin-right: 1300px;
+  object-fit: cover;
+}
+
+.linea-footer {
+    border-top: 3px solid #ff4659; 
+    width: 100%;
+    padding-top: 20px;           
     display: inline-block;             
 }
 
