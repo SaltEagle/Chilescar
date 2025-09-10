@@ -4,7 +4,7 @@
 
 
 <head>
-  <title>Chilescar: NASCAR Chile</title>
+  <title>Chilescar: Contacto</title>
   <link rel="icon" type="image/png" href="assets/images/logo.png">
   <link rel="stylesheet" href="assets/style.css"> <!-- Link del .css para utilizar los estilos creados -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> <!-- link de bootstrap para utilizar sus herramientas -->
@@ -24,7 +24,7 @@
         <a class="nav-link text-light" aria-current="page" href="index.html">Inicio</a>
         <a class="nav-link text-light" href="noticias.html">Noticias</a>
         <a class="nav-link text-light" href="informacion.html">Informacion</a>
-        <a class="nav-link text-light" aria-disabled="true">Contacto</a>
+        <a class="nav-link text-light" href="contacto.html">Contacto</a>
       </div>
     </div>
   </div>
@@ -35,11 +35,68 @@
 <main>
 
 
+  <article class="container-fluid "> <!-- Articulo que tiene la presentacion de la pagina -->
+    
+    <div class="row g-0 overflow-hidden flex-md-row h-md-250 position-relative fuente mb-5 mt-5 ">
+
+
+    <div class="col p-4 d-flex flex-column position-static">
+      <h1 class="mb-3 ">¿Quieres recivir las noticias antes que nadie? o ¿Enviarnos tu opinion de Chilescar?</h1>
+      <div class="text-center">
+       <h5 class="card-text mb-1 text-body-secondary mb-4">¡Ponte en contacto con nosotros!</h5>
+       <h5 class="card-text mb-4 text-body-secondary">Con colocar tu correo, te enviaremos por este cuando subamos una nueva noticia o las actualizaciones de la pagina!.</h5>
+       <h5 class="card-text mb-1 text-body-secondary">O puedes enviar tu mensaje dejando una opinion sobre nuestro sitio.</h5>
+      </div>
+    </div>
+
+   </div>
+
+  </article>
+
+
+  <section class="py-1 text-center container fuente ">  
+        <div class="row py-lg-5"> 
+          <div>
+             <h1 class="fw-light ">¡Envia tu mensaje!</h1> 
+          </div> 
+        </div>
+  </section> 
+
+
+  <article class="container-xl mb-5 fuente"> <!-- Articulo que muestra las categorias que la pagina esta enfocada -->
+
+    <div class="mb-2">
+      <label for="Nombre" class="form-label">Ingrese su nombre</label>
+      <input id="nombre" type="email" class="form-control" id="Nombre" >
+    </div>
+    
+    <div class="mb-3">
+      <label for="CorreoElectronico" class="form-label">Correo Electronico</label>
+      <input id="correo"  type="email" class="form-control" id="CorreoElectronico">
+    </div>
+
+    
+    <div class="mb-5">
+      <label for="exampleFormControlTextarea1" class="form-label">Ingrese su mensaje</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    
+    
+    <button id ="btnEnviarMensaje" class="btn btn-danger" type="submit">Enviar</button>
+
+
+    <div id="resultBox" class="result mt-3" style="display:none;"></div>
+
+
+  </article>
 
 
 
 
 </main>
+
+
+<script src="assets/app.js"></script>
 
 
 
@@ -51,8 +108,6 @@
     <p>Chilescar es un proyecto creado por: Salvador Aguilar © - 2025</p>
   </div> 
 </footer>
-
-
 
 
 
