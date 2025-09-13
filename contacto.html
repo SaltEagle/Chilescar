@@ -21,10 +21,10 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link text-light" aria-current="page" href="index.html">Inicio</a>
-        <a class="nav-link text-light" href="noticias.html">Noticias</a>
-        <a class="nav-link text-light" href="informacion.html">Informacion</a>
-        <a class="nav-link text-light" href="contacto.html">Contacto</a>
+        <a class="nav-link text-light" aria-current="page" href="index.html">Inicio</a>  <!-- ir a inicio -->
+        <a class="nav-link text-light" href="noticias.html">Noticias</a> <!-- ir a Noticias -->
+        <a class="nav-link text-light" href="informacion.html">Informacion</a> <!-- ir a Informacion -->
+        <a class="nav-link text-light" href="contacto.html">Contacto</a> <!-- ir a Contacto -->
       </div>
     </div>
   </div>
@@ -41,9 +41,9 @@
 
 
     <div class="col p-4 d-flex flex-column position-static">
-      <h1 class="mb-3 ">¿Quieres recivir las noticias antes que nadie? o ¿Enviarnos tu opinion de Chilescar?</h1>
-      <div class="text-center">
-       <h5 class="card-text mb-1 text-body-secondary mb-4">¡Ponte en contacto con nosotros!</h5>
+      <h1 class="mb-3 ">¿Quieres recivir las noticias antes que nadie? o ¿Enviarnos tu opinion de Chilescar?</h1> <!-- Titulo de la pagina -->
+      <div class="text-center"> 
+       <h5 class="card-text mb-1 text-body-secondary mb-4">¡Ponte en contacto con nosotros!</h5> <!-- Breve Descripcion -->
        <h5 class="card-text mb-4 text-body-secondary">Con colocar tu correo, te enviaremos por este cuando subamos una nueva noticia o las actualizaciones de la pagina!.</h5>
        <h5 class="card-text mb-1 text-body-secondary">O puedes enviar tu mensaje dejando una opinion sobre nuestro sitio.</h5>
       </div>
@@ -63,29 +63,29 @@
   </section> 
 
 
-  <article class="container-xl mb-5 fuente"> <!-- Articulo que muestra las categorias que la pagina esta enfocada -->
+  <article class="container-xl mb-5 fuente"> <!-- Formulario de la pagina -->
 
     <div class="mb-2">
-      <label for="Nombre" class="form-label">Ingrese su nombre</label>
+      <label for="Nombre" class="form-label">Ingrese su nombre</label> <!-- Primer insert -->
       <input id="nombre" type="email" class="form-control" id="Nombre" >
     </div>
     
     <div class="mb-3">
-      <label for="CorreoElectronico" class="form-label">Correo Electronico</label>
+      <label for="CorreoElectronico" class="form-label">Correo Electronico</label> <!-- segundo insert -->
       <input id="correo"  type="email" class="form-control" id="CorreoElectronico">
     </div>
 
     
     <div class="mb-5">
-      <label for="exampleFormControlTextarea1" class="form-label">Ingrese su mensaje</label>
+      <label for="exampleFormControlTextarea1" class="form-label">Ingrese su mensaje</label> <!-- Tercer insert -->
       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
     
     
-    <button id ="btnEnviarMensaje" class="btn btn-danger" type="submit">Enviar</button>
+    <button id ="btnEnviarMensaje" class="btn btn-danger" type="submit">Enviar</button> <!-- Boton para enviar el mensaje -->
 
 
-    <div id="resultBox" class="result mt-3" style="display:none;"></div>
+    <div id="resultBox" class="result mt-3" style="display:none;"></div> <!-- Bloque con mensaje para confirmar el envio del mensaje o marcar error -->
 
 
   </article>
@@ -96,19 +96,18 @@
 </main>
 
 
-<script src="assets/app.js"></script>
+<script src="assets/app.js"></script> <!-- Llamada al script de js para que funcione el formulario. -->
 
 
 
 
-<footer class="text-white py-5 text-center logo linea-footer"> 
+<footer class="text-white py-5 text-center logo linea-footer"> <!-- Footer con informacion de la pagina -->
   <div class="container"> 
-    <img src="assets/images/chilescarlogoblanco.png" alt="logo" width="400" style="height: 10vh; object-fit: cover">
-    <p class="mb-3 strong">2025 Chilescar. Todos los derechos reservados.</p>
+    <img src="assets/images/chilescarlogoblanco.png" alt="logo" width="400" style="height: 10vh; object-fit: cover"> <!-- Logo de la pagina -->
+    <p class="mb-3 strong">2025 Chilescar. Todos los derechos reservados.</p> 
     <p>Chilescar es un proyecto creado por: Salvador Aguilar © - 2025</p>
   </div> 
 </footer>
-
 
 
 </html>
